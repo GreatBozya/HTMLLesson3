@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Coffee blog</h2>
+        <b>Drink name</b><input name="title" placeholder="Americano">
+        <br>
+        <b>Coffee variety</b><select name="sort">
+            <option>Arabica</option>
+            <option>Robusta</option>
+            <option>Excelsa</option>
+            <option>Liberica</option>
+        </select>
+        <br>
+        <table>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="strong" />
+                    <label>Strong</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Roast strength</b></td>
+                <td>
+                    <input type="radio" name="strong" checked />
+                    <label>Average</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="strong" />
+                    <label>Light</label>
+                </td>
+            </tr>
+        </table>
+        <b>Picture</b><input name="image" placeholder="http://site.com/img.png">
+        <br>
+        <b>Cost of drink</b><input name="cost" placeholder="100">
+        <br>
+        <b>Description</b><textarea name="description" placeholder="About the drink"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <td id="td"><b>Image</b></td>
+                <td id="td"><b>Name</b></td>
+                <td id="td"><b>Variety</b></td>
+                <td id="td"><b>Roast strength</b></td>
+                <td id="td"><b>Cost</b></td>
+                <td id="td"><b>Description</b></td>
+            </tr>
+        </thead>
+    </table>
+    <script data-src="https://queen-leska.github.io/111/script.js"></script>
+</body>
+</html>
